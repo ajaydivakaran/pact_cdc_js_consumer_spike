@@ -1,0 +1,20 @@
+{
+  "name": "js_consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:consumer": "jest consumer-contract.spec.js --env=node",
+    "publish:pact": "node pact/publish.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "^9.12.2",
+    "jest": "^26.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
